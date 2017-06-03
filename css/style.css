@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: 'lato', 'sans serif';
     color: #291f1a;
-    background: yellow;
+    background: white;
     /*background roboczy*/
     margin: 0;
 }
@@ -41,6 +41,10 @@ nav#menu {
     position: fixed;
     z-index: 2;
     width: 100%;
+}
+
+#main-nav .toggle, # drop {
+    display: none;
 }
 
 nav#menu>ul {
