@@ -144,7 +144,7 @@ section#about div p {
 section#skills {
     overflow: hidden;
     text-align: center;
-    background-color: white;
+    background-color: burlywood;
 }
 
 section#skills h2.skills-header {
@@ -179,7 +179,7 @@ section#portfolio {
     background-color: #fff;
 }
 
-section#portfolio h2.portfolio-header {
+section#portfolio {
     text-align: center;
 }
 
@@ -189,22 +189,21 @@ section#portfolio div {
     display: inline-block;
 }
 
-section#portfolio div#portfolio-img-1 {
-    height: 350px;
+#portfolio #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
-    background-size: 100%;
+   
 }
 
-section#portfolio div#portfolio-img-2 {
-    height: 350px;
+#portfolio #portfolio-item-2 {
+
     background-image: url(../img/portfolio2.jpg);
-    background-size: 100%;
+   
 }
 
-section#portfolio div#portfolio-img-big {
-    height: 350px;
+#portfolio #portfolio-item-3 {
+   
     background-image: url(../img/portfolio4.jpg);
-    background-size: 100%;
+  
 }
 
 section#portfolio div#portfolio-img-1 div.portfolio-border{
