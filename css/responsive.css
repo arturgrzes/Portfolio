@@ -34,6 +34,9 @@
     #main-header .header-kontener {
         padding: 10%;
     }
+    .about-container {
+        width: 100%;
+    } 
 }
 @media all and (max-width: 640px) {
     #main-header .header-kontener h1 {
